@@ -1,7 +1,6 @@
 import streamlit as st
 
-def
- main():
+def main():
     st.title("Make Money from ChatGPT")
 
     # Initialize session state to track navigation
