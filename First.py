@@ -1,7 +1,8 @@
 import streamlit as st
 
-def main():
-    st.title("Interactive Chatbot: Make Money from ChatGPT")
+def
+ main():
+    st.title("Make Money from ChatGPT")
 
     # Initialize session state to track navigation
     if "step" not in st.session_state:
