@@ -4,13 +4,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 def send_email(user_email):
-    # Gmail SMTP setup
-    smtp_server = "smtp.gmail.com"
-    smtp_port = 587
-    sender_email = "peter.sheceo@gmail.com"  # Replace with your email
-    sender_password = "ybfkctbwixlydrud"      # Replace with your password
-    recipient_email = "peter.sheceo@gmail.com"  # Your email address
-
+    # Gmail SMTP setup 
     # Email content to Peter
     subject_to_peter = "New Email Subscription"
     body_to_peter = f"A new user has subscribed to updates with the email address: {user_email}"
