@@ -19,7 +19,7 @@ def main():
     elif st.session_state.step == "physical_product":
         st.write("Future versions of this chatbot will help you to create content and marketing campaigns to sell your physical product. Please send us an email at peter.sheceo@gmail.com to be notified when we update this chatbot")
     elif st.session_state.step == "digital_product":
-        st.write("A digital product is usually easier to sell, and future versions of this chatbot will show you in detail and step by step how you can sell your digital product easily and efficiently. Please send us an email at peter.sheceo@gmail.com to be notified when we update this chatbot")
+        st.write("A digital product is usually easier to sell since prospects can download a free sample before buying. Future versions of this chatbot will show you in detail and step by step how you can sell your digital product easily and efficiently. Please send us an email at peter.sheceo@gmail.com to be notified when we update this chatbot")
     elif st.session_state.step == "fiction":
         st.write("Future versions of this chatbot will teach you how to write Fiction with ChatGPT. Please send us an email at peter.sheceo@gmail.com to be notified when we update this chatbot")
     elif st.session_state.step == "non_fiction":
